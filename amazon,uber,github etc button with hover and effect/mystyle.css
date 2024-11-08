@@ -1,0 +1,188 @@
+.subscribe-btn {
+    background-color: red;
+    border: none;
+    height: 36px;
+    width: 105px;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.subscribe-btn:hover {
+    opacity: 0.7;
+}
+
+.subscribe-btn:active {
+    background-color: rgb(189, 184, 179);
+}
+
+/*--------join button-------*/
+
+
+.join-btn {
+    background-color: white;
+    border-color: rgb(0, 192, 250);
+    border-style: solid;
+    width: 62px;
+    height: 36px;
+    border-width: 1.5px;
+    cursor: pointer;
+    color: rgb(0, 192, 250);
+    transition: 0.25s;
+}
+
+.join-btn:hover {
+    background-color:rgb(0, 192, 250);
+    color: white;
+}
+
+/*--------tweeter button------------*/
+
+.tweet-btn {
+
+    background-color: rgb(46, 171, 255);
+    border: none;
+    height: 36px;
+    width: 70px;
+    border-radius: 18px;
+    color: white;
+    font-weight:bold;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.tweet-btn:hover {
+    opacity: 0.7;
+    box-shadow: 5px 5px ;
+}
+
+.tweet-btn:active {
+    background-color:white ;
+    color: rgb(46, 171, 255);
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(46, 171, 255);
+}
+
+/*-----uber button------*/
+
+.uber-btn {
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 110px;
+    border: none;
+    cursor: pointer;
+    transition:background-color 0.25s ;
+}
+
+.uber-btn:hover {
+    opacity: 0.7;
+}
+
+.uber-btn:active {
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*------Amazon button------*/
+
+.amazon-btn {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 36px;
+    width: 170px;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.amazon-btn:hover {
+    box-shadow: 5px 5px 20px rgba(20, 19, 14, 0.2);
+    border-color: yellow;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.amazon-btn:active {
+    box-shadow: 5px 5px 20px rgba(253, 249, 3, 1);
+    border-color: yellow;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.github-btn {
+    background-color: rgb(46, 164, 79);
+    border: none;
+    width: 105px;
+    height: 42px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bootstrap-btn {
+    background-color: rgb(135, 76, 194);
+    border: none;
+    height: 42px;
+    width: 120px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.download-btn {
+    background-color: white;
+    border-width: 1px;
+    border-color:rgb(135, 76, 194);
+    border-style: solid;
+    height: 42px;
+    width: 120px;
+    border-radius: 4px;
+    margin-left: 7px;
+    color: rgb(135, 76, 194);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.linkedin-btn {
+    background-color: rgba(10, 102,194);
+    border: none;
+    height: 40px;
+    width: 250px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.save-btn {
+    background-color: white;
+    border-color: rgba(10, 102,194);
+    border-style: solid;
+    height: 40px;
+    width: 85px;
+    border-width: 1.5px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(10, 102,194);
+    margin-left: 10px;
+    cursor: pointer;
+}
