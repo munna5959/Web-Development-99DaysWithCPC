@@ -1,0 +1,151 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: inline-block;
+    margin-left: 23%;
+}
+
+
+.round-corner {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+}
+
+.round-corner input {
+    height: 40px;
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid rgb(128, 128, 128,0.7) ;
+    padding-left: 15px;
+    font-size: 15px;
+    color: rgb(0, 0, 0,0.5);
+    font-weight: bold;
+    
+}
+
+.round-corner input::placeholder {
+    color:rgb(128, 128, 128,0.5);
+}
+
+.round-corner input:focus {
+    outline: none;
+    border-color: rgb(128, 128, 128,0.5);
+}
+
+
+
+.google {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    width: auto;
+}
+
+.google input {
+    height: 40px;
+    width: 400px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0,.2);
+    padding-left: 25px;
+    font-size: 14px;
+    color: rgb(0, 0, 0,.8);
+    font-family: Arial;
+    
+}
+
+.google input:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2) ;
+    border: 1px solid rgb(0, 0, 0,0);
+}
+
+
+.google input::placeholder {
+    color:rgb(128, 128, 128,0.5);
+}
+
+.google input:focus {
+    outline: none;
+    border-color: rgb(128, 128, 128,0.5);
+}
+
+.tweeter {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.tweeter {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    width: auto;
+    position: absolute;
+}*/
+
+.tweeter input {
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 25px;
+    font-size: 14px;
+    color: rgb(0, 0, 0,.8);
+    font-family: Arial;
+    padding-left: 80px;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2) ;
+    border: 1px solid rgb(0, 0, 0,0);
+    
+}
+
+.tweeter input:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2) ;
+    border: 1px solid rgb(0, 0, 0,0);
+}
+
+
+.tweeter input::placeholder {
+    color:rgb(128, 128, 128,0.7);
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.tweeter input:focus {
+    outline: none;
+    border-color: rgb(128, 128, 128,0.5);
+}
+
+.tweeter img {
+    height: 47px;
+    position: absolute;
+    left:26%;
+    top:63.5%;
+    border-radius: 50%;
+}
+
+.tweet-btn {
+    background-color: rgb(64, 180, 247);
+    border: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right:40%;
+    top:64.5%;
+}
+
+.tweet-btn:active {
+    background-color:rgba(64, 180, 247,0.7); ;
+}
