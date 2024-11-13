@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    background-color: rgb(63, 78, 73);
+}
+.container {
+    background-color: rgb(254, 255, 254);
+    justify-content: center;
+    justify-items: center;
+    margin-top: 15%;
+    padding: 10px;
+}
+
+.blue-print {
+    background-color: rgb(255, 255, 255);
+    height: 55px;
+    width: 300px;
+    display: flex;
+    border: 1px solid rgb(202, 195, 195);
+}
+
+p {
+    margin: 0;
+    line-height:15px;
+}
+
+
+.profile img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+button {
+    height:25px;
+    width: 60px;
+    margin-top: 15px;
+    background-color: rgb(88, 174, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+}
+
+button:active {
+   opacity: 0.7;
+
+}
+
+.details {
+    margin-top: 5px;
+    width: 170px;
+}
+
+.catagory , .ppt {
+    color: rgba(109, 109, 112,0.7);
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+.name {
+    color: rgb(10, 10, 85);
+}
