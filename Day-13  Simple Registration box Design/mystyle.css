@@ -1,0 +1,82 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.form {
+    height: auto;
+    width: auto;
+    justify-content: center;
+    justify-items: center;
+    background-color: green;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.name-input {
+    width:152px;
+    display: inline-block;
+}
+
+.name-input input {
+    height: 40px;
+    width: 131px;
+    border-radius:10px;
+    border-style: none;
+    padding-left: 10px;
+    color: green;
+}
+
+.first {
+    margin-right: 10px;
+}
+
+.last {
+    margin-left: 10px;
+}
+.mail-input input{
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border-style: none;
+    padding-left: 10px;
+    color: green;
+}
+
+.mail-input input,.name-input input:focus{
+    outline: none;
+}
+
+.btn {
+    width: auto;
+    height: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+.btn:hover {
+    color:white;
+    background-color: red;
+}
+
+.btn:active {
+    color:white;
+    background-color: red;
+    opacity: 0.7;
+}
+
+h3 {
+    color: yellow;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
