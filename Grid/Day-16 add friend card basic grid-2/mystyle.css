@@ -1,0 +1,81 @@
+body,html {
+    height: 100vh;
+    height: 0;
+}
+
+.blue-print {
+    height: 300px;
+    width: 180px;
+    box-shadow: 2px 2px 5px hsla(0, 3%, 51%, 0.9);
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+
+.profile img {
+    height: 190px;
+    width: 180px;
+    background-size: contain;
+    
+}
+
+.mutual img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 8PX;
+    margin-right: 8PX;
+    margin-top: 3px;
+}
+
+.mutual {
+    display: flex;
+    vertical-align: top;
+    width: 180px;
+    height: 40px;
+}
+
+.mutual p{
+    display: flex;
+    vertical-align: top;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    color: gray;
+}
+
+.name {
+    padding-left: 8px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.btn {
+    margin-left: 8px;
+    background-color: rgb(72, 103, 241);
+    border-style: none;
+    color: white;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 7px;
+}
+
+.btn:active {
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid gray;
+}
+
+.details {
+    justify-content: center;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 180px 180px  180px ;
+    column-gap: 10px;
+}
+
+.parent {
+    justify-items: center;
+}
