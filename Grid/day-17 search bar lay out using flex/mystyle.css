@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: lightgreen;
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+}
+
+.left-section {
+    background-color: lightblue;
+    width: 180px;
+}
+
+.right-section {
+    background-color: lightblue;
+    width:200px ;
+}
+
+.mid-section {
+    flex: 1;
+    max-width: 500px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.search-bar::placeholder {
+    color: rgb(121, 86, 250);
+
+}
