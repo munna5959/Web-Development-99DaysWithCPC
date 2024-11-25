@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sky , .road , .filed {
+    position: relative;
+}
+
+.sky {
+    background-color: skyblue;
+    height: 40%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.cloud:nth-child(1){
+    position: absolute;
+    height: 60%;
+    top: 70px;
+    opacity: 0.5;
+    animation: wind 50s linear infinite reverse;
+}
+
+.cloud:nth-child(2){
+    position: absolute;
+    left: 70px;
+    animation: wind 60s linear infinite reverse;
+
+}
+
+.filed {
+    background-color: rgb(19, 153, 7);
+    height: 30%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.road {
+    background-color: rgb(116, 112, 112);
+    height: 30%;
+    box-sizing: border-box;
+    border-top: 5px solid rgb(201, 195, 195);
+    border-bottom: 5px solid rgb(201, 195, 195);
+    width: 100%;
+}
+
+.line {
+    height: 0px;
+    border: 5px dashed white;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+}
+
+.mario {
+    position: absolute;
+    height: 90px;
+    left: 0px;
+    top: -45px;
+    animation: move 7s ease-in infinite ;
+    
+    /*
+    -----shortCut Way above-------------
+
+    animation-name: move;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;*/
+
+}
+
+.luigi {
+    position: absolute;
+    height: 90px;
+    left: 0px;
+    bottom:20px;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+
+@keyframes move {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(1350px);
+    }
+}
+
+@keyframes wind {
+    from {
+        transform: translate(-100px);
+    }
+    to {
+        transform: translateX(1350px);
+    }
+}
