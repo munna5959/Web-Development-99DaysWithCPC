@@ -1,0 +1,169 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffeaea;
+}
+/*Header Content */
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 223, 223);
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.headline {
+    font-family: "Poppins", sans-serif;
+    font-weight: 1000;
+    font-style:bold;
+    margin: 5px;
+}
+
+.line {
+    height: 3px;
+    background-color: red;
+    width: 180px;
+    border-radius: .5px;
+    animation: move 2s ease  infinite;
+}
+
+@keyframes move {
+    0%{
+        width: 180px;
+    }
+    50%{
+        width: 20px;
+    }
+    100%{
+        width: 180px;
+    }
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.header nav ul li {
+    padding: 15px;
+}
+
+.header nav ul li a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header nav ul li:hover {
+    background-color: lightblue;
+}
+
+.hr {
+    border: 1px solid rgb(165, 160, 160);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.container div {
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Gallery Container */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Individual Frame */
+.frame {
+    position: relative;
+    height: auto;
+    width: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Overlay Items */
+.items {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.items h2 {
+    font-size: auto;
+    margin-bottom: 10px;
+}
+
+.items p {
+    font-size: auto;
+    margin: 0;
+}
+
+/* Hover Effect */
+.frame:hover {
+    transform: scale(1.05);
+}
+
+.frame:hover .items {
+    opacity: 1;
+}
