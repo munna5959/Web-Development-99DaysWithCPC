@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/brands.min.css" integrity="sha512-7rXIvd/xj1FnI2zKQjjXzDFxC4twqBByp8yxOgEQJs4C/aNzNyoQsOO7VxH0RgYNhbAYLJLwzqslaP50KTTHIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>JavaScript Element</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Click Subscribe button & type any letter in the form box</h1>
+    <button onclick="subscribe()" id="btn">Subscribe</button>
+    <p id="text"></p>
+
+
+    <form action="" id="form" onkeyup="keyPress();">
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter Your Name">
+        <label for="">Email</label>
+        <input type="email" placeholder="Enter Your Email">
+        <label for="">Message</label>
+        <textarea id="textarea" placeholder="Enter Your Message"></textarea>
+        <input type="submit" value="Send Message">
+      </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
