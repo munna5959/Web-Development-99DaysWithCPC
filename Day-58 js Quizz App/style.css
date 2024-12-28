@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6dd5fa, #2980b9);
+    height: 100vh;
+    color: #333;
+}
+
+#container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #817979;
+}
+
+#question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#answer-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+    border: 3px solid #2ecc71 ;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.btn {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d1c8c8;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #363232;
+    color: white;
+    transform: scale(1.05);
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#prev-btn, #next-btn, #start-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#prev-btn {
+    background-color: #e74c3c;
+}
+
+#prev-btn:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+#next-btn {
+    background-color: #2ecc71;
+}
+
+#next-btn:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
+}
+
+#start-btn {
+    background-color: #8e44ad;
+    margin: 0 auto;
+}
+
+#start-btn:hover {
+    background-color: #732d91;
+    transform: scale(1.05);
+}
+
+.hide {
+    display: none;
+}
+
+.correct {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.incorrect {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn.correct:hover {
+    background-color: #27ae60;
+}
+
+.btn.incorrect:hover {
+    background-color: #c0392b;
+}
+
+#score-board {
+    margin-bottom: 20px; 
+  }
