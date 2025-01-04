@@ -1,0 +1,14 @@
+.nav-bar{
+  background-color: red;
+  color: white;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 20px;
+  font-size: large;
+  text-align: center;
+}
